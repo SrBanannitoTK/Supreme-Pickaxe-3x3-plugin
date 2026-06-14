@@ -1,0 +1,11 @@
+name: Supreme Pickaxe 3x3
+version: 1.0
+main: com.SP3x3.Pico3x3
+api-version: '1.21'
+author: SrBanannito
+description: Plugin de pico minero 3x3 con soporte de encantamientos.
+
+commands:
+  pico3x3:
+    description: Comando principal para obtener el pico 3x3 o recargar la config.
+    usage: /pico3x3 <jugador|reload> [encantamiento] [nivel]

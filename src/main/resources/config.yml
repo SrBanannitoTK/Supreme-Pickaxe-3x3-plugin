@@ -1,0 +1,41 @@
+config-version: 1
+
+pickaxe:
+  # Material del pico (NETHERITE_PICKAXE, DIAMOND_PICKAXE, etc.)
+  material: NETHERITE_PICKAXE
+  
+  # Radio de minado: 1 = 3x3, 2 = 5x5, 3 = 7x7
+  # Ten en cuenta que al cambiar este valor cambias el area de todos los picos 3x3, 5x5 o 7x7 que existan en el servidor, esto lo recomiendo cambiar antes de darselo a cualquier jugador y ya no volverlo a cambiar.
+  radius: 1
+  
+  # ¿Debe minar hacia abajo/arriba también?
+  break-depth: true
+
+  # Nombre visible (puedes usar {area} para que cambie según el radio)
+  name: '&6&lSUPER PICO {area}'
+  
+  # Lore o descripción del ítem
+  # El marcador {area} se reemplazará automáticamente por 3x3, 5x5, etc.
+  lore:
+    - '&7--------------------------'
+    - '&eHabilidad Especial:'
+    - '&fRompe bloques en un área &b{area}'
+    - '&7--------------------------'
+    
+  # Evitar que el pico destruya la bedrock (Piedra base)
+  prevent-bedrock-break: true
+
+command:
+  # Si está en true, solo los jugadores con OP pueden usar /pico3x3
+  op-only: true
+
+worldguard:
+  # Permite o deniega romper bloques si la región no tiene dueño definido
+  allow-unset-block-break: true
+
+messages:
+  only-player: '&cEste comando solo puede usarse desde el juego.'
+  no-op: '&cNo tienes permiso. Solo los administradores con OP pueden usar este comando.'
+  give: '&a¡Has recibido el Pico Legendario {area}!'
+  cannot-break-bedrock: '&c¡Cuidado! Este pico no tiene el poder para romper Bedrock.'
+  reload: '&a[Supreme Pickaxe 3x3] La configuración ha sido recargada con éxito.'
