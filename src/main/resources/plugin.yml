@@ -1,0 +1,19 @@
+name: Pico3x3
+version: 1.0
+main: com.prueba.Pico3x3
+api-version: '1.21'
+author: SrBanannito
+description: Plugin de pico minero 3x3 con soporte de encantamientos.
+
+commands:
+  pico3x3:
+    description: Comando principal para obtener el pico 3x3 o recargar la config.
+    usage: /<command> <jugador|reload> [encantamiento] [nivel]
+    # No es obligatorio poner el permiso aquí si ya lo validas con isOp() en el código,
+    # pero ayuda a que otros plugins de permisos lo reconozcan.
+    permission: prueba.admin 
+
+permissions:
+  prueba.admin:
+    description: Permite usar el comando /pico3x3
+    default: op
