@@ -1,6 +1,6 @@
 # ⛏️ Supreme Pickaxe 3x3
 
-[!["Modrinth Platforms"](https://img.shields.io/modrinth/p/b8B39Lcl?style=flat-for-the-badge&color=242629&logo=modrinth)](https://modrinth.com/plugin/pico-supremo-3x3)
+[![Modrinth](https://img.shields.io/badge/Modrinth-Download-emerald?style=flat-for-the-badge&logo=modrinth)](https://modrinth.com/plugin/pico-supremo-3x3)
 [!["Discord"](https://img.shields.io/discord/1221191065171136512?style=flat-for-the-badge&color=5865F2&logo=discord)](https://discord.gg/mzSe767Hb)
 [!["PayPal"](https://img.shields.io/badge/Donate-PayPal-00457C?style=flat-for-the-badge&logo=paypal)](https://www.paypal.me/SrBanannito)
 
